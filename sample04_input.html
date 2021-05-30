@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--フォームに記入した内容はaction要素に追加されたファイルに送信されます--->
+    <!--ファイルがPHPだと自由にその値を扱える---->
+    <form action="sample04.php" method="GET">
+        <label for="my_name">お名前</label>
+        <input type="text" id="my_name" name="my_name" size="35" maxlength="225" value="">
+        <input type="submit" value="送信する">
+    </form> 
+</body>
+</html>

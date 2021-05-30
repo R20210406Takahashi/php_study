@@ -1,0 +1,10 @@
+.header{
+    width: 100%;
+    text-align: center;
+    background-color:#1f4ad6 ;
+}
+body{
+    padding: 30px;
+    background-color: #fff;
+    color: #333;
+}
