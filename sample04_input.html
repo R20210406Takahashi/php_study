@@ -10,9 +10,39 @@
     <!--フォームに記入した内容はaction要素に追加されたファイルに送信されます--->
     <!--ファイルがPHPだと自由にその値を扱える---->
     <form action="sample04.php" method="GET">
-        <label for="my_name">お名前</label>
-        <input type="text" id="my_name" name="my_name" size="35" maxlength="225" value="">
+                                <!--method大事-->
+        <label for="my_name0">お名前</label>
+        <input type="text" id="my_name" name="my_name0" size="35" maxlength="225" value="">
         <input type="submit" value="送信する">
     </form> 
+    <!-- <form action="sample04.php" method="POST">
+        <dl>
+            <dt>性別:</dt>
+            <dd>
+                <input id="gender_male" type="radio" name="gender" value="male"><label for="gender_male">男性</label>
+                <input id="gender_female" type="radio" name="gender" value="female"><label for="gender_female">女性</label>
+            </dd>
+        </dl>
+        <input type="submit" value="送信する"/>
+    </form> -->
+    <form action="sample06.php" method="GET">
+        <dl>
+            <dt>名前</dt>
+            <dd>
+                                                
+                <input id="" type="text" name="my_name00" size="35" maxlength="255" value=""/>
+            </dd>
+        </dl>
+        <input type="submit" value="送信する">
+    </form>
+    <form action="sample08.php" method="POST">
+        <dl>
+            <dt>名前<span class="required">必須</span></dt>
+            <dd>
+                <input id="my_nbame" type="text" size="35" maxlength="255" name="my_name01" value=""/>
+            </dd>
+        </dl>
+        <input type="submit" value="送信する"/>
+    </form>
 </body>
 </html>
